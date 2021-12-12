@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-wrapper {
+  padding: 50px;
+}
+.story-row {
+  display: flex;
+  justify-content: start;
+  border-bottom: 1px solid blueviolet;
+  height: 150px;
+}
+.story-row .story-label {
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.story-row .story-issues {
+  display: flex;
+  justify-content: start;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.story-row .story-issues .issue-item {
+  background-color: cadetblue;
+  width: 200px;
+  height: 140px;
+  margin-right: 5px;
+  padding: 5px;
+  position: relative;
+  border-radius: 10px;
+}
+.story-row .story-issues .issue-item .issue-key {
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+.story-row .story-issues .issue-item .issue-summary {
+  font-size: 14px;
+  color: white;
+  padding: 5px;
+  margin: 0;
+}
+.story-row .story-issues .issue-item .issue-labels {
+  display: flex;
+  justify-content: start;
+}
+.story-row .story-issues .issue-item .issue-labels .label-item {
+  background-color: cornsilk;
+  color: #252525;
+  font-size: 12px;
+  margin-right: 5px;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.story-row .story-issues .issue-item .issue-actions {
+  position: absolute;
+  bottom: 5px;
+  right: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.story-row .story-issues .issue-item .issue-actions .issue-creator {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
